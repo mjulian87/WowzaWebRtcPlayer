@@ -174,7 +174,7 @@ class WowzaPeerConnectionPlay
       }
       else if (msgStatus != 200) {
         _this.errorHandler({message:msgJSON['statusDescription']});
-        _stop();
+        _this.stop();
       }
       else {
 
